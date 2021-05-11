@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('../assets/fonts/AppleGaramond.ttf');
+}
+
+body{
+  font-family: monospace;
+  margin: 0;
+  font-size: 15px;
+}
+
+.light{
+  color: white;
+}
+
+.dark{
+  color: black;
+}
+
+p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title{
+  margin: 0;
+  padding-top: 20px;
+}
+
+.logo-github {
+  width: 50px;
+}
+
+.logo-github:hover {
+  opacity: 0.6;
+}
+
+.logo-github.dark {
+filter: invert(100%) sepia(7%) saturate(4579%) hue-rotate(200deg) brightness(100%) contrast(109%);
+}
+
+.navbar.light {
+  background-color: grey;
+  padding: 10px;
+}
+
+.navbar.dark {
+  background-color: rgb(33, 33, 33);
+  padding: 10px;
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px 5px 0px 5px;
+}
+
+nav a:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+//typing effect
+
+.wrapper {
+  height: 200px;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 31ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+//Typing effect /\
+
+.home-page.dark {
+  width: 100%;
+  background-color: black;
+  height: 100%;
+}
+
+.home-page.light {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+}
+
+.about-page.dark {
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+}
+
+.about-page.light {
+  width: 100%;
+  background-color: white;
+  height: 100vh;
+}
+
+.projects{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.project1{
+  display: flex;
+  border: 1px solid black;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding: 45px;
+}
+
+.project1.light{
+  border: 1px solid white;
+}
+
+.project1.dark{
+  border: 1px solid black;
+}
+
+.project2{
+  display: flex;
+  border: 1px solid black;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding: 45px;
+}
+
+.project2.light{
+  border: 1px solid white;
+}
+
+.project2.dark{
+  border: 1px solid black;
+}
+
+.text-projects{
+  margin: 25px;
+}
+
+.contact-me {
+  margin: 50px 50px 0px 50px;
+  padding: 45px;
+}
+
+.contact-me.dark {
+  border: 1px solid black;
+}
+
+.contact-me.light {
+  border: 1px solid white;
+}
+
+//darkmode setup
+//btn
+.btn-toggle {
+  border: none;
+  width: 55px;
+  height: 75px;
+  position: absolute;
+  top: -5px;
+  right: 15px;
+  border-radius: 0 0 2em 2em;
+  transition: all 1s ease-out;
+  cursor: pointer;
+}
+
+.btn-toggle.dark {
+  color: black;
+  background-color: white;
+  border: solid 1px black;
+}
+
+.btn-toggle.light{
+  color: white;
+  background-color: black;
+}
+
+.btn-logo.light{
+  padding: 2px;
+  filter: invert(100%) sepia(7%) saturate(4579%) hue-rotate(200deg) brightness(100%) contrast(109%);
+}
+
+.btn-logo.dark{
+}
+
+//logo code
+
+.logo-code.light{
+  width: 50px;
+  margin-right: 25px;
+}
+
+.logo-code.dark{
+  width: 50px;
+  margin-right: 25px;
+  filter: invert(100%) sepia(7%) saturate(4579%) hue-rotate(200deg) brightness(100%) contrast(109%);
+}
+
+//all
