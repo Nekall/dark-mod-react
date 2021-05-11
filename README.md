@@ -1,2 +1,1 @@
-This is a basic template of a React application. 
-Basically, there is a page system, the jsconfig, and the gitigniore is completed.
+Ceci est un exercice pour apprendre React, plus précisement les 'Context' en faisant un darkmod.
